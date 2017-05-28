@@ -1,0 +1,16 @@
+h1{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.outer{
+    display: flex;
+    height: 100%;
+}
+
+.inner {
+    padding: 70px 0;
+    margin: auto;
+}

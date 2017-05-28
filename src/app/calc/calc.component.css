@@ -1,0 +1,47 @@
+/*Тело калькулятора*/
+.body-calc{
+    border:2px solid silver;/*Обводка ширина, стиль линии обводки, цвет линии обводки*/
+    border-radius: 15px;
+    padding-top: 15px;
+}
+/*Конец Тело калькулятора*/
+
+/*Элементы отображения информации*/
+.display{
+
+}
+
+.btn.active.focus, .btn.active:focus,
+.btn.focus, .btn:active.focus,
+.btn:active:focus, .btn:focus {
+    outline: none;
+}
+
+.all-btn-form{
+    margin-top: 10px;
+}
+
+.row>.col-xs-3{
+    margin: 5px 0 0 0;
+}
+
+.screen{
+    margin-bottom: -15px;
+    text-align: right;
+}
+
+.view{
+    font-size: 14px;
+    font-weight: normal;
+}
+/*Конец Элементы отображения информации*/
+
+/*Все кнопки*/
+.btn-form{
+    border-radius: 30px;
+}
+
+.color-number{
+    background: #d7d4d4;
+}
+/*Конец Все кнопки*/

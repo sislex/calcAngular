@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <div class="body-calc col-xs-offset-1 col-xs-10 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">
+            <div class="display text-right">
+                <input type="text" disabled class="screen form-control" [(ngModel)]="screen_info">
+                <label class="view"> </label>
+            </div>
+            <div class="form-group all-btn-form">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <button class="btn btn-default form-control btn-form color-number clearc" (click)="funcClear()">C</button>
+                    </div>
+                    <div class="col-xs-6">
+                        <button class="btn btn-default form-control btn-form color-number" (click)="deleteLastCharacter()">
+                            <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-3" *ngFor="let button of buttonsList">
+                        <button class="btn btn-default form-control btn-form color-number btn-number" (click)="addSymbol(button)">{{button}}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
